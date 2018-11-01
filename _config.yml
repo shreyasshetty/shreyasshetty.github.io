@@ -1,0 +1,28 @@
+# Dependencies
+markdown : kramdown
+kramdown:
+    extensions: ["tables"]
+
+highlighter: true
+
+# Permalinks
+permalink:           pretty
+
+
+# Site wide settings
+title: Shreyas Shetty
+url: "https://shreyasshetty.github.io"
+
+# Build settings
+#markdown: kramdown
+paginate: 2
+paginate_path: "/page:num/"
+inter_post_navigation: true
+
+# External gems
+plugins:
+    - jekyll-paginate
+
+pages_list:
+ About: '/about'
+ Archive: '/archive'
