@@ -1,0 +1,30 @@
+baseURL = "https://shreyasshetty.github.io/"
+title = "Shreyas Shetty"
+theme = "PaperMod"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = 10
+
+[params]
+  author = "Shreyas Shetty"
+  description = "Tech & ML blog"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+  defaultTheme = "auto"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
