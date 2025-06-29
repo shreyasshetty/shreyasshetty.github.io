@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>https://example.org/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 30 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Reduction indices in tensorflow</title><link>https://example.org/posts/2016-10-30-reduction-indices-in-tensorflow/</link><pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate><guid>https://example.org/posts/2016-10-30-reduction-indices-in-tensorflow/</guid><description>&lt;p>TensorFlow provides many handy functions for performing reductions on tensors.
+I was trying to compute max-pooling over some tensor. I did not understand
+the idea of reduction indices correctly, and hence ended up writing for loops
+within the tensorflow computation graph. As expected the code ran poorly.&lt;/p>
+&lt;p>It was clear that using &lt;code>tf.reduce_max&lt;/code> appropriately would be the key
+to rectify the issue. Note that similar ideas apply to numpy arrays. I hope that
+this write-up will be useful for future reference.&lt;/p></description></item></channel></rss>
